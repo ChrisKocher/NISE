@@ -147,7 +147,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Interstimulation interval (in sec)</Name>
 					<DefaultValue>1.0</DefaultValue>
-					<Value>39</Value>
+					<Value>38</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -217,6 +217,10 @@
 					<Value>1440</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0x27b3ee3c, 0xc50527e6)</Value>
 				</Attribute>
@@ -245,7 +249,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Interstimulation interval (in sec)</Name>
 					<DefaultValue>1.0</DefaultValue>
-					<Value>59,5</Value>
+					<Value>60</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -302,7 +306,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].edf</DefaultValue>
-					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/CalibTrials/test_calib.edf</Value>
+					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/NISE/Data/test1.edf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -359,7 +363,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/CalibTrials/python-signal-average.py</Value>
+					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/NISE/Python/python-signal-average.py</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -370,11 +374,11 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
+					<Value>320</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>704</Value>
+					<Value>768</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -601,7 +605,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/CalibTrials/test_calib.csv</Value>
+					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/NISE/Data/test1.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -724,7 +728,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].ov</DefaultValue>
-					<Value>record-[$core{date}-$core{time}].ov</Value>
+					<Value>C:/Users/Chris/Documents/3_Uni/1_MSc Neuroengineering/Semester 4/NISE/NISE/Data/test1.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -802,6 +806,10 @@
 					<Value>1216</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0xe44a71e7, 0x7964dd76)</Value>
 				</Attribute>
@@ -853,6 +861,10 @@
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
 					<Value>1328</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -908,6 +920,10 @@
 					<Value>1440</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0xe44a71e7, 0x7964dd76)</Value>
 				</Attribute>
@@ -925,78 +941,19 @@
 				</Attribute>
 			</Attributes>
 		</Box>
-		<Box>
-			<Identifier>(0x000067af, 0x0000289d)</Identifier>
-			<Name>Stimulation based epoching</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>5</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>1</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation to epoch from</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_03</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>304</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>704</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xa79941ae, 0x80708445)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
 	</Boxes>
 	<Links>
+		<Link>
+			<Identifier>(0x0000036c, 0x00006bcd)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00004d29, 0x00002dd2)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00001ec4, 0x00004b44)</BoxIdentifier>
+				<BoxInputIdentifier>(0x002bf863, 0xca89ae75)</BoxInputIdentifier>
+			</Target>
+		</Link>
 		<Link>
 			<Identifier>(0x00000d6d, 0x00006824)</Identifier>
 			<Source>
@@ -1009,6 +966,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x000010ee, 0x00007a56)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00000c20, 0x000055cf)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000060a8, 0x000061bb)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00001399, 0x000010ab)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00004d75, 0x000023e5)</BoxIdentifier>
@@ -1017,17 +985,6 @@
 			<Target>
 				<BoxIdentifier>(0x00004d29, 0x00002dd2)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x000013a7, 0x00000557)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000067af, 0x0000289d)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00001ec4, 0x00004b44)</BoxIdentifier>
-				<BoxInputIdentifier>(0x002bf863, 0xca89ae75)</BoxInputIdentifier>
 			</Target>
 		</Link>
 		<Link>
